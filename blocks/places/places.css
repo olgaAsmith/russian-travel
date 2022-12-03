@@ -1,0 +1,39 @@
+.places {
+  width: 76.875%;
+  max-width: 984px;
+  margin: 0;
+  padding: 94px 0 92px 140px;
+}
+
+@media screen and (max-width: 1024px){
+  .places {
+    box-sizing: border-box; /*так паддинги будут учитываться в размере блока*/
+    width: 100%; /*занять всю ширину*/
+    max-width: 1024px;
+    padding: 92px 48px 90px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .places {
+    padding: 88px 24px 92px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .places {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 64px 0 70px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places {
+    width: 90%;
+    max-width: 288px;
+    padding: 64px 0 66px;
+    margin: 0;
+  }
+}

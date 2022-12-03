@@ -1,0 +1,5 @@
+.list { /*обнуление все списки на страничке*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

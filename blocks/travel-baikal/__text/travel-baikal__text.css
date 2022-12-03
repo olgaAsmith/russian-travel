@@ -1,0 +1,16 @@
+.travel-baikal__text {
+  width: 360px; /*фикс ширина на макете до 320*/
+  max-width: 360px;
+  line-height: 22px;
+  text-align: center;
+  margin: 32px 0 0 0;
+}
+
+@media screen and (max-width: 640px){
+  .travel-baikal__text {
+    width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.places__text {
+  line-height: 29px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px){
+  .places__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .places__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.places__text:not(:first-child){
+  margin-top: 26px;
+}

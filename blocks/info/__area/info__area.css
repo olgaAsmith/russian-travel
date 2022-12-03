@@ -1,0 +1,9 @@
+.info__area {
+  max-width: 690px;
+}
+
+@media screen and (max-width: 768px){
+  .info__area {
+    max-width: 720px;
+  }
+}

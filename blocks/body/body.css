@@ -1,0 +1,10 @@
+.body {
+  min-width: 320px;
+  max-width: 1280px;
+  background-color: #2A2C2F;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFF;
+  margin: 0 auto;
+}

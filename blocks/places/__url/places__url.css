@@ -1,0 +1,11 @@
+.places__url {
+  text-decoration: underline;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 640px) {
+  .places__url {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

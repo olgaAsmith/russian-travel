@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 92.50%;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer {
+    width: 90.62%;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer {
+    width: 93.75%;
+    max-width: 720px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 740px){ /*брейк иначе накладываются друг на друга*/
+  .footer {
+    width: 90%;
+    max-width: 580px;
+    flex-direction: column; /*изменение наваправления меню для маленьких экранов*/
+    justify-content: flex-start;/*возврат значения*/
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer {
+    width: 100%;
+    max-width: 288px;
+    padding: 66px 0 24px 16px;
+  }
+}
