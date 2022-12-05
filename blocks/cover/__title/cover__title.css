@@ -1,5 +1,5 @@
-.travel-baikal__title {
-  width: 560px; /*фикс ширина на макете до 320*/
+.cover__title {
+  max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -8,8 +8,8 @@
 }
 
 @media screen and (max-width: 640px){
-  .travel-baikal__title {
-    width: 288px;
+  .cover__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }

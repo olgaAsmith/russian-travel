@@ -1,15 +1,14 @@
 .footer__menu-nav {
   display: flex;
-  justify-content: space-between;
-  width: 465px;
+  gap: 19px;
+  max-width: 465px;
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 680px){
   .footer__menu-nav {
     flex-direction: column;
+    gap: 32px;
     /*изменение наваправления для маленьких экранов*/
-    width: 100%;
-    min-height: 248px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
   }
 }

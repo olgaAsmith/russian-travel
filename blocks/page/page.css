@@ -1,5 +1,5 @@
 .page { /*размеры странички на каждом поинте*/
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -7,28 +7,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@media screen and (max-width: 1024px){
-  .page {
-    max-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 640px){
-  .page {
-    max-width: 640px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .page {
-    max-width: 320px;
-  }
 }

@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 740px){ /*брейк иначе накладываются друг на друга*/
+@media screen and (max-width: 680px){ /*брейк иначе накладываются друг на друга*/
   .footer {
     width: 90%;
     max-width: 580px;
@@ -36,6 +36,6 @@
   .footer {
     width: 100%;
     max-width: 288px;
-    padding: 66px 0 24px 16px;
+    padding: 66px 0 22px 0;
   }
 }

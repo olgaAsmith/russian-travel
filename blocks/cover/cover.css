@@ -1,34 +1,45 @@
-.travel-baikal {
+
+.cover {
   position: relative; /*для ссылки*/
   max-width: 1184px;/*фулл иширина*/
   min-height: 740px;
-  background: no-repeat url(../../images/to-baikal-on-dogs-background.jpg);
+  background: no-repeat url(../../images/cover-background.jpg);
   background-size: cover;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px){
-  .travel-baikal {
+  .cover {
     width: 100%; /*далее занимает всю ширину*/
-    max-width: 100%;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px){
-  .travel-baikal {
+  .cover {
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 640px){
-  .travel-baikal {
+  .cover {
     min-height: 320px;
   }
 }
 
 @media screen and (max-width: 320px){
-  .travel-baikal {
+  .cover {
     min-height: 200px;
   }
+}
+
+.cover:before {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
 }

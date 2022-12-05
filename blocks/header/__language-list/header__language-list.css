@@ -1,0 +1,4 @@
+.header__language-list:not(:first-child)  {
+  margin-left: 18px;
+}
+

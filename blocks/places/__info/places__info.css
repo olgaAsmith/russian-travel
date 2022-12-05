@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 640px){
   .places__info {
-    grid-template-columns: minmax(300px, 600px);
+    grid-template-columns: minmax(288px, 600px);
     row-gap: 32px;
   }
 }
@@ -38,10 +38,9 @@
 @media screen and (max-width: 320px){
   .places__info {
     grid-template-columns: 320px;
-    row-gap: 32px;
   }
 
   .places__info:not(:first-child) {
-    padding-top: 64px;
+    padding-top: 50px;
   }
 }
