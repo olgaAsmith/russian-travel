@@ -3,6 +3,7 @@
 
 #### Github Pages
 *https://olgaasmith.github.io/russian-travel*
+
 ---
 
 *проект Яндекс.Практикума по профессии Web-разработчик*
